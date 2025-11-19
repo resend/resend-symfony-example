@@ -34,13 +34,13 @@ symfony serve -d
 
 6. Click on the button to send an email.
 
-## Instruction for webhook
+## Instructions for webhook
 
 1. Expose your local server to the internet using [expose.dev](https://expose.dev).
 
 2. Register your webhook URL (`{EXPOSE_URL}/webhook/mailer_resend`) in [Resend settings](https://resend.com/webhooks). Check the wanted events.
 
-3. Paste `MAILER_RESEND_SECRET=SECRET_KEY` on `.env.local` and replace `SECRET_KEY` with your webhook signing secret you get after registering the webhook in Resend.
+3. Paste `MAILER_RESEND_SECRET=SECRET_KEY` on `.env.local` and replace `SECRET_KEY` with the webhook signing secret you get after registering the webhook in Resend.
 
 4. Click on the button to send an email.
 
